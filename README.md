@@ -51,5 +51,6 @@ Special notes:
    - Remove the hard corded expected row count (3) passed from the feature file. Depend on the date selection there could be many rows return to UI possibley with pagination. Better keep some mock test data so that row count can be validated more efficiently by cross checking with DB records. 
    - Further enhance to validate the number of row counts with pagination.
    - Have private methods for web elements so that those methods can be called in more secure manner.
+   - This git repository is not set up to integrate with CI/CD pipeline. This can be enahnce to integrate with a CI/CD piepline and get the deployment pipeline kick off once the pull request approvals are in place. Further, merge to master branch from the feature branch can be done once the deployment is successful. So that this set up can be used with better version controlling when the repository is used/ updated by many users.
 
 Author – Ayesha Jayawardena
