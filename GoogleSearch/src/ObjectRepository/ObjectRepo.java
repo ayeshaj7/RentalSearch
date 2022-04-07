@@ -105,8 +105,9 @@ public class ObjectRepo {
     }
 	
 	//Check result row count
-	public void checkResultCount(){
+	public int checkResultCount(){
 		int count =(driver.findElements(ResultList).size());
+		return count;
     }
 	
 	//Method to click on Britz web site link
